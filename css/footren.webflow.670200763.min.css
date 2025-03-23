@@ -3176,9 +3176,9 @@ figcaption {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-  min-height: 400px; /* Ensures cards are equal height */
+  min-height: 200px; /* Ensures cards are equal height */
   height: 100%;
   box-sizing: border-box;
 }
@@ -3283,7 +3283,7 @@ figcaption {
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 columns in a row */
-  gap: 1.5rem; /* Adjust spacing as needed */
+  gap: 01rem; /* Adjust spacing as needed */
 }
 
 @media (max-width: 1024px) {
@@ -3299,8 +3299,8 @@ figcaption {
 }
 
 .services-card {
-  text-align: start;
-  grid-column-gap: 2rem;
+  text-align: center;
+  grid-column-gap: 0.1rem;
   grid-row-gap: 2rem;
   background-color: #f8f8f8;
   border-radius: 32px;
@@ -3309,7 +3309,7 @@ figcaption {
   align-items: flex-start;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   overflow: hidden;
 }
@@ -3340,7 +3340,7 @@ figcaption {
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
   flex-flow: column;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   display: flex;
 }
 .service-card-bullet {
@@ -3823,12 +3823,12 @@ figcaption {
 
 /* Box Positioning */
 .lw-box-top-left {
-  top: 20px;
+  top: 0px;
   left: 30px;
 }
 
 .lw-box-top-right {
-  top: -50px;
+  top: -00px;
   right: -10px;
 }
 
@@ -4471,7 +4471,7 @@ figcaption {
 }
 
 .lw-team-image:hover {
-  transform: scale(1.1); /* Zoom out slightly */
+  transform: scale(1.05); /* Zoom out slightly */
 }
 
 /* Team Member Info */
